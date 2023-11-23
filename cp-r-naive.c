@@ -16,83 +16,64 @@
 #define QD  1024
 #define BS (16 * 1024)
 
-int infd, outfd;
 struct io_uring ring;
 
 struct io_data {
     int read;
-    off_t first_offset, offset;
-    size_t first_len;
-    struct iovec iov;
+    int infd, outfd;
+    size_t size;
+    off_t offset;
+    char* buf;
 };
 
 int setup_context(unsigned entries, struct io_uring *ring) {
-    int ret;
-
-    ret = io_uring_queue_init(entries, ring, 0);
-    if( ret < 0) {
+    int ret = io_uring_queue_init(entries, ring, 0);
+    if (ret < 0) {
         fprintf(stderr, "queue_init: %s\n", strerror(-ret));
         return -1;
     }
-
     return 0;
 }
 
-void queue_prepped(struct io_uring *ring, struct io_data *data) {
+// Prep a queue job
+void queue_prep(struct io_uring *ring, struct io_data *data) {
     struct io_uring_sqe *sqe;
 
     sqe = io_uring_get_sqe(ring);
     assert(sqe);
+    assert(data);
 
     if (data->read)
-        io_uring_prep_readv(sqe, infd, &data->iov, 1, data->offset);
+        io_uring_prep_read(sqe, data->infd, data->buf, data->size, data->offset);
     else
-        io_uring_prep_writev(sqe, outfd, &data->iov, 1, data->offset);
+        io_uring_prep_write(sqe, data->outfd, data->buf, data->size, data->offset);
 
     io_uring_sqe_set_data(sqe, data);
 }
 
-int queue_read(struct io_uring *ring, off_t size, off_t offset) {
-    // fprintf(stderr, "queue read %d %ld %ld\n", infd, size, offset);
-    struct io_uring_sqe *sqe;
-    struct io_data *data;
-
-    data = malloc(size + sizeof(*data));
-    if (!data)
-        return 1;
-
-    sqe = io_uring_get_sqe(ring);
-    if (!sqe) {
-        free(data);
-        return 1;
+// Create a queue job that copies from infd to outfd @ size and offset
+struct io_data *queue_create(int infd, int outfd, size_t size, off_t offset) {
+    struct io_data *data = malloc(sizeof(struct io_data));
+    if (data == NULL) {
+        perror("malloc io_data");
+        return NULL;
     }
 
-    data->read = 1;
-    data->offset = data->first_offset = offset;
+    data->infd = infd;
+    data->outfd = outfd;
+    data->size = size;
+    data->offset = offset;
+    data->read = 1; // we only create in reads
+    data->buf = malloc(sizeof(char) * (size + 1));
+    if (data->buf == NULL) {
+        perror("malloc buffer");
+        return NULL;
+    }
 
-    data->iov.iov_base = data + 1;
-    data->iov.iov_len = size;
-    data->first_len = size;
-
-    io_uring_prep_readv(sqe, infd, &data->iov, 1, offset);
-    io_uring_sqe_set_data(sqe, data);
-    return 0;
+    return data;
 }
 
-void queue_write(struct io_uring *ring, struct io_data *data) {
-    // fprintf(stderr, "queue write %d %ld %ld\n", outfd, data->first_len, data->offset);
-    assert(data->offset == data->first_offset);
-    data->read = 0;
-    data->offset = data->first_offset;
-
-    data->iov.iov_base = data + 1;
-    data->iov.iov_len = data->first_len;
-
-    queue_prepped(ring, data);
-    io_uring_submit(ring);
-}
-
-int copy_file(struct io_uring *ring, off_t insize) {
+int copy_file(struct io_uring *ring, int infd, int outfd, off_t insize) {
     unsigned long reads, writes;
     struct io_uring_cqe *cqe;
     off_t write_left, offset;
@@ -116,8 +97,8 @@ int copy_file(struct io_uring *ring, off_t insize) {
             else if (!this_size)
                 break;
 
-            if (queue_read(ring, this_size, offset))
-                break;
+            struct io_data *data = queue_create(infd, outfd, this_size, offset);
+            queue_prep(ring, data);
 
             insize -= this_size;
             offset += this_size;
@@ -125,6 +106,7 @@ int copy_file(struct io_uring *ring, off_t insize) {
         }
 
         if (had_reads != reads) {
+            // submit multiple reads at the same time
             ret = io_uring_submit(ring);
             if (ret < 0) {
                 fprintf(stderr, "io_uring_submit: %s\n", strerror(-ret));
@@ -158,18 +140,18 @@ int copy_file(struct io_uring *ring, off_t insize) {
             data = io_uring_cqe_get_data(cqe);
             if (cqe->res < 0) {
                 if (cqe->res == -EAGAIN) {
-                    queue_prepped(ring, data);
+                    queue_prep(ring, data);
                     io_uring_cqe_seen(ring, cqe);
                     continue;
                 }
                 fprintf(stderr, "cqe failed: %s\n",
                         strerror(-cqe->res));
                 return 1;
-            } else if (cqe->res != data->iov.iov_len) {
+            } else if (cqe->res != data->size) {
                 /* short read/write; adjust and requeue */
-                data->iov.iov_base += cqe->res;
-                data->iov.iov_len -= cqe->res;
-                queue_prepped(ring, data);
+                data->offset += cqe->res;
+                data->size -= cqe->res;
+                queue_prep(ring, data);
                 io_uring_cqe_seen(ring, cqe);
                 continue;
             }
@@ -180,8 +162,14 @@ int copy_file(struct io_uring *ring, off_t insize) {
              * */
 
             if (data->read) {
-                queue_write(ring, data);
-                write_left -= data->first_len;
+                data->read = 0; // change to write
+                queue_prep(ring, data);
+                int ret = io_uring_submit(ring);
+                if (ret < 0) {
+                    perror("io_uring_submit write");
+                }
+
+                write_left -= data->size;
                 reads--;
                 writes++;
             } else {
@@ -219,20 +207,20 @@ int copy_r(char * const src[], char* dest) {
             break;
         case FTS_F:
             strcpy(destfile + destlen, p->fts_path + srclen);
-            fprintf(stderr, "copy f %s\n", destfile);
-            infd = open(p->fts_path, O_RDONLY);
+            fprintf(stderr, "copy f %s -> %s\n", p->fts_path, destfile);
+
+
+            int infd = open(p->fts_path, O_RDONLY);
             if (infd < 0) {
                 perror("open infile");
                 return 1;
             }
-
-            outfd = open(destfile, O_WRONLY | O_CREAT | O_TRUNC, 0644);
+            int outfd = open(destfile, O_WRONLY | O_CREAT | O_TRUNC, 0644);
             if (outfd < 0) {
                 perror("open outfile");
                 return 1;
             }
-
-            int ret = copy_file(&ring, p->fts_statp->st_size);
+            int ret = copy_file(&ring, infd, outfd, p->fts_statp->st_size);
             close(infd);
             close(outfd);
             if (ret != 0) {
