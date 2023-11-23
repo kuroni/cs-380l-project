@@ -12,9 +12,8 @@
 #include <err.h>
 
 #define BUF 256
-
-#define QD  1024
-#define BS (16 * 1024)
+#define QD  256
+#define BS 16 * 1024
 
 struct io_uring ring;
 
@@ -43,10 +42,11 @@ void queue_prep(struct io_uring *ring, struct io_data *data) {
     assert(sqe);
     assert(data);
 
-    if (data->read)
+    if (data->read) {
         io_uring_prep_read(sqe, data->infd, data->buf, data->size, data->offset);
-    else
+    } else {
         io_uring_prep_write(sqe, data->outfd, data->buf, data->size, data->offset);
+    }
 
     io_uring_sqe_set_data(sqe, data);
 }
@@ -187,7 +187,7 @@ int copy_recursive(char * const src[], char* dest) {
     FTS *ftsp;
     FTSENT *p;
 
-    int fts_options = FTS_COMFOLLOW | FTS_LOGICAL | FTS_NOCHDIR;
+    int fts_options = FTS_LOGICAL | FTS_NOCHDIR;
     if ((ftsp = fts_open(src, fts_options, NULL)) == NULL) {
         warn("fts_open");
         return 1;
