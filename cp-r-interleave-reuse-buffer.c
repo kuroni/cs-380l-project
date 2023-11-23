@@ -78,7 +78,7 @@ struct io_data *queue_create(struct copy_data *cd, size_t size, off_t offset) {
     data->size = size;
     data->offset = offset;
     data->read = 1; // we only create in reads
-    data->buf = malloc(sizeof(char) * (size + 1));
+    data->buf = malloc(sizeof(char) * (BS + 1)); // we have to take max size here as we are to reuse these
     if (data->buf == NULL) {
         perror("malloc buffer");
         return NULL;
