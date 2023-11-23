@@ -183,7 +183,7 @@ int copy_file(struct io_uring *ring, int infd, int outfd, off_t insize) {
     return 0;
 }
 
-int copy_r(char * const src[], char* dest) {
+int copy_recursive(char * const src[], char* dest) {
     FTS *ftsp;
     FTSENT *p;
 
@@ -193,21 +193,21 @@ int copy_r(char * const src[], char* dest) {
         return 1;
     }
 
-    int srclen = strlen(src[0]), destlen = strlen(dest);
-    char* destfile = (char*)malloc(BUF);
-    strcpy(destfile, dest);
+    int src_len = strlen(src[0]), dest_len = strlen(dest);
+    char* dest_file = (char*)malloc(BUF);
+    strcpy(dest_file, dest);
 
     while ((p = fts_read(ftsp)) != NULL) {
         switch (p->fts_info) {
         case FTS_D:
             // make a new directory
-            strcpy(destfile + destlen, p->fts_path + srclen);
-            fprintf(stderr, "make d %s\n", destfile);
-            mkdir(destfile, 0700); // we don't care if this fails, we only need the guarantee that there is a directory after
+            strcpy(dest_file + dest_len, p->fts_path + src_len);
+            // fprintf(stderr, "make d %s\n", dest_file);
+            mkdir(dest_file, 0700); // we don't care if this fails, we only need the guarantee that there is a directory after
             break;
         case FTS_F:
-            strcpy(destfile + destlen, p->fts_path + srclen);
-            fprintf(stderr, "copy f %s -> %s\n", p->fts_path, destfile);
+            strcpy(dest_file + dest_len, p->fts_path + src_len);
+            // fprintf(stderr, "copy f %s -> %s\n", p->fts_path, dest_file);
 
 
             int infd = open(p->fts_path, O_RDONLY);
@@ -215,7 +215,7 @@ int copy_r(char * const src[], char* dest) {
                 perror("open infile");
                 return 1;
             }
-            int outfd = open(destfile, O_WRONLY | O_CREAT | O_TRUNC, 0644);
+            int outfd = open(dest_file, O_WRONLY | O_CREAT | O_TRUNC, 0644);
             if (outfd < 0) {
                 perror("open outfile");
                 return 1;
@@ -249,7 +249,7 @@ int main(int argc, char *argv[]) {
     char* dest = argv[argc - 1];
     argv[argc - 1] = NULL;
 
-    int rc = copy_r(argv + 1, dest);
+    int rc = copy_recursive(argv + 1, dest);
     io_uring_queue_exit(&ring);
 
     return rc;

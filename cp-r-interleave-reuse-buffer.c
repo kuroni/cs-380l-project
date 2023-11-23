@@ -130,6 +130,10 @@ int copy_recursive(struct io_uring *ring, char * const src[], char* dest) {
     struct copy_data *cur_file = NULL;
     int cur_depth = 0, new_reads, got_comp, ret;
 
+    // a stack for reusing data buffers
+    struct io_data *reused_data[QD];
+    int reused_data_tail = 0;
+
     do {
         // Queue up all the reads
         new_reads = 0;
@@ -161,25 +165,34 @@ int copy_recursive(struct io_uring *ring, char * const src[], char* dest) {
                 break;
             }
             while (cur_file->insize && cur_depth < QD) {
-                size_t cursize = cur_file->insize;
-                if (cursize > BS) {
-                    cursize = BS;
+                size_t cur_size = cur_file->insize;
+                if (cur_size > BS) {
+                    cur_size = BS;
                 }
 
-                struct io_data *data = queue_create(cur_file, cursize, cur_file->offset);
-                queue_prep(ring, data);
+                struct io_data *data = reused_data_tail ? reused_data[--reused_data_tail] : NULL;
+                
+                if (data == NULL) {
+                    data = queue_create(cur_file, cur_size, cur_file->offset);
+                } else {
+                    data->cd = cur_file;
+                    data->size = cur_size;
+                    data->offset = cur_file->offset;
+                    data->read = 1;
+                }
 
-                cur_file->insize -= cursize;
-                cur_file->offset += cursize;
+                cur_file->insize -= cur_size;
+                cur_file->offset += cur_size;
                 cur_file->reads++;
                 new_reads = 1;
-
                 cur_depth++;
+
+                queue_prep(ring, data);
             }
 
             if (cur_file->insize == 0) {
                 // this might seem like a dangling pointer but it's not
-                // we leave the cur_file struct allocated so queued jobs
+                // we leave the curfile struct allocated so queued jobs
                 // can access them
                 cur_file = NULL;
             }
@@ -191,6 +204,11 @@ int copy_recursive(struct io_uring *ring, char * const src[], char* dest) {
             if (ret < 0) {
                 fprintf(stderr, "io_uring_submit: %s\n", strerror(-ret));
                 break;
+            }
+        } else {
+            // if we cannot reuse the data then let it be free
+            while (reused_data_tail) {
+                free(reused_data[--reused_data_tail]);
             }
         }
 
@@ -264,13 +282,13 @@ int copy_recursive(struct io_uring *ring, char * const src[], char* dest) {
                     close(data->cd->outfd);
                     free(data->cd);
                 }
-                free(data);
+                // let's reuse this unused data
+                reused_data[reused_data_tail++] = data;
                 cur_depth--;
             }
             io_uring_cqe_seen(ring, cqe);
         }
     } while (cur_depth || cur_file);
-
     
     fts_close(ftsp);
     return 0;
