@@ -173,6 +173,7 @@ int copy_file(struct io_uring *ring, int infd, int outfd, off_t insize) {
                 reads--;
                 writes++;
             } else {
+                free(data->buf); // big bug here haha
                 free(data);
                 writes--;
             }

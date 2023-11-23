@@ -208,7 +208,9 @@ int copy_recursive(struct io_uring *ring, char * const src[], char* dest) {
         } else {
             // if we cannot reuse the data then let it be free
             while (reused_data_tail) {
-                free(reused_data[--reused_data_tail]);
+                --reused_data_tail;
+                free(reused_data[reused_data_tail]->buf);
+                free(reused_data[reused_data_tail]);
             }
         }
 

@@ -264,6 +264,7 @@ int copy_recursive(struct io_uring *ring, char * const src[], char* dest) {
                     close(data->cd->outfd);
                     free(data->cd);
                 }
+                free(data->buf); // big bug here haha
                 free(data);
                 cur_depth--;
             }
