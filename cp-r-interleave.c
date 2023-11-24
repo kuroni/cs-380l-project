@@ -153,6 +153,9 @@ int copy_recursive(struct io_uring *ring, char * const src[], char* dest) {
                     default:
                         break;
                     }
+                    if (cur_file != NULL) {
+                        break;
+                    }
                 }
             }
 
@@ -161,16 +164,16 @@ int copy_recursive(struct io_uring *ring, char * const src[], char* dest) {
                 break;
             }
             while (cur_file->insize && cur_depth < QD) {
-                size_t cursize = cur_file->insize;
-                if (cursize > BS) {
-                    cursize = BS;
+                size_t cur_size = cur_file->insize;
+                if (cur_size > BS) {
+                    cur_size = BS;
                 }
 
-                struct io_data *data = queue_create(cur_file, cursize, cur_file->offset);
+                struct io_data *data = queue_create(cur_file, cur_size, cur_file->offset);
                 queue_prep(ring, data);
 
-                cur_file->insize -= cursize;
-                cur_file->offset += cursize;
+                cur_file->insize -= cur_size;
+                cur_file->offset += cur_size;
                 cur_file->reads++;
                 new_reads = 1;
 
@@ -258,7 +261,7 @@ int copy_recursive(struct io_uring *ring, char * const src[], char* dest) {
                 }
             } else {
                 data->cd->writes--;
-                if (!data->cd->writes && !data->cd->insize) {
+                if (!data->cd->reads && !data->cd->writes && !data->cd->insize) {
                     // we don't need any more write on this queue
                     // so we close the write fd AND free the copy_data struct
                     close(data->cd->outfd);

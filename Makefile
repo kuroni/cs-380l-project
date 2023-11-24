@@ -1,5 +1,5 @@
 CC := gcc
-CFLAGS := -g -Wall -luring
+CFLAGS := -O2 -Wall -luring
 
 %: %.c
 	$(CC) $(CFLAGS) -o $@ $^
