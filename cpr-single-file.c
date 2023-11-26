@@ -147,7 +147,8 @@ int copy_recursive(struct io_uring *ring, char *const src[], char *dest) {
         // Queue up all the reads
         new_ops = 0;
         while (cur_depth < QD) {
-            if (cur_file == NULL) {
+            // forces queue to be empty for us to take in a new file
+            if (cur_file == NULL && !cur_depth) {
                 // get the next file to be read
                 while (1) {
                     if ((p = fts_read(ftsp)) == NULL) {
@@ -293,9 +294,6 @@ int copy_recursive(struct io_uring *ring, char *const src[], char *dest) {
                         close(data->cd->outfd);
                         free(data->cd);
                     }
-                    reused_data[reused_data_tail++] = data;
-                    cur_depth--;
-                    break;
                 case OP_FALLOCATE:
                     // let's reuse this unused data
                     reused_data[reused_data_tail++] = data;
