@@ -16,7 +16,7 @@ do
     sync;
     sudo sh -c 'echo 3 > /proc/sys/vm/drop_caches';
     sleep 1;
-    time sh -c "$COMMAND $SRC $DST";
+    time -v sh -c "$COMMAND $SRC $DST";
     diff -rq $SRC $DST;
     if [ $? -ne 0 ]
     then
