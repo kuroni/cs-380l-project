@@ -287,7 +287,7 @@ int copy_recursive(struct io_uring *ring, char *const src[], char *dest) {
                     break;
                 case OP_WRITE:
                     data->cd->writes--;
-                    if (!data->cd->reads && !data->cd->writes && !data->cd->insize) {
+                    if (!data->cd->reads && !data->cd->writes && !data->cd->falloc && !data->cd->insize) {
                         // we don't need any more write on this queue
                         // so we close the write fd AND free the copy_data struct
                         close(data->cd->outfd);
