@@ -1,0 +1,120 @@
+Run 1
+	Command being timed: "sh -c ./cpr-single-file /home/kuroni/Videos/Movies /home/kuroni/movies-1"
+	User time (seconds): 0.09
+	System time (seconds): 14.71
+	Percent of CPU this job got: 24%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:01.28
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34784
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 3
+	Minor (reclaiming a frame) page faults: 8717
+	Voluntary context switches: 390966
+	Involuntary context switches: 1446
+	Swaps: 0
+	File system inputs: 41439440
+	File system outputs: 41430952
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c ./cpr-single-file /home/kuroni/Videos/Movies /home/kuroni/movies-1"
+	User time (seconds): 0.06
+	System time (seconds): 14.51
+	Percent of CPU this job got: 36%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34624
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 8715
+	Voluntary context switches: 381715
+	Involuntary context switches: 1184
+	Swaps: 0
+	File system inputs: 41441712
+	File system outputs: 41430952
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c ./cpr-single-file /home/kuroni/Videos/Movies /home/kuroni/movies-1"
+	User time (seconds): 0.10
+	System time (seconds): 14.31
+	Percent of CPU this job got: 29%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:48.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34464
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 8711
+	Voluntary context switches: 382745
+	Involuntary context switches: 1244
+	Swaps: 0
+	File system inputs: 41438936
+	File system outputs: 41430952
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c ./cpr-single-file /home/kuroni/Videos/Movies /home/kuroni/movies-1"
+	User time (seconds): 0.06
+	System time (seconds): 14.48
+	Percent of CPU this job got: 31%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:45.73
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34844
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 8715
+	Voluntary context switches: 384225
+	Involuntary context switches: 1172
+	Swaps: 0
+	File system inputs: 41438968
+	File system outputs: 41430952
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c ./cpr-single-file /home/kuroni/Videos/Movies /home/kuroni/movies-1"
+	User time (seconds): 0.07
+	System time (seconds): 14.48
+	Percent of CPU this job got: 32%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:44.53
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34720
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 8714
+	Voluntary context switches: 382936
+	Involuntary context switches: 1381
+	Swaps: 0
+	File system inputs: 41439520
+	File system outputs: 41430952
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

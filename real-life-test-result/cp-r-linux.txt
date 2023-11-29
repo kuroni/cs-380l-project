@@ -1,0 +1,120 @@
+Run 1
+	Command being timed: "sh -c cp -r /home/kuroni/Documents/Repositories/linux /home/kuroni/linux-1"
+	User time (seconds): 0.09
+	System time (seconds): 3.99
+	Percent of CPU this job got: 24%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3680
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 5
+	Minor (reclaiming a frame) page faults: 343
+	Voluntary context switches: 93350
+	Involuntary context switches: 211
+	Swaps: 0
+	File system inputs: 13658856
+	File system outputs: 13551224
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c cp -r /home/kuroni/Documents/Repositories/linux /home/kuroni/linux-1"
+	User time (seconds): 0.06
+	System time (seconds): 4.03
+	Percent of CPU this job got: 24%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.58
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3680
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 10
+	Minor (reclaiming a frame) page faults: 333
+	Voluntary context switches: 93223
+	Involuntary context switches: 278
+	Swaps: 0
+	File system inputs: 13660144
+	File system outputs: 13551224
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c cp -r /home/kuroni/Documents/Repositories/linux /home/kuroni/linux-1"
+	User time (seconds): 0.07
+	System time (seconds): 4.00
+	Percent of CPU this job got: 26%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3628
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 10
+	Minor (reclaiming a frame) page faults: 337
+	Voluntary context switches: 93171
+	Involuntary context switches: 240
+	Swaps: 0
+	File system inputs: 13660368
+	File system outputs: 13551224
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c cp -r /home/kuroni/Documents/Repositories/linux /home/kuroni/linux-1"
+	User time (seconds): 0.07
+	System time (seconds): 4.02
+	Percent of CPU this job got: 26%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3520
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 10
+	Minor (reclaiming a frame) page faults: 339
+	Voluntary context switches: 93336
+	Involuntary context switches: 239
+	Swaps: 0
+	File system inputs: 13660400
+	File system outputs: 13551224
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c cp -r /home/kuroni/Documents/Repositories/linux /home/kuroni/linux-1"
+	User time (seconds): 0.09
+	System time (seconds): 4.01
+	Percent of CPU this job got: 27%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:14.72
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3656
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 10
+	Minor (reclaiming a frame) page faults: 339
+	Voluntary context switches: 92870
+	Involuntary context switches: 339
+	Swaps: 0
+	File system inputs: 13662736
+	File system outputs: 13551224
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

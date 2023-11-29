@@ -1,0 +1,120 @@
+Run 1
+	Command being timed: "sh -c ./cpr-no-falloc /home/kuroni/Documents/Repositories/linux /home/kuroni/linux-1"
+	User time (seconds): 0.09
+	System time (seconds): 5.99
+	Percent of CPU this job got: 54%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:11.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34880
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 3
+	Minor (reclaiming a frame) page faults: 8869
+	Voluntary context switches: 60719
+	Involuntary context switches: 572
+	Swaps: 0
+	File system inputs: 13790064
+	File system outputs: 13660312
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c ./cpr-no-falloc /home/kuroni/Documents/Repositories/linux /home/kuroni/linux-1"
+	User time (seconds): 0.13
+	System time (seconds): 5.89
+	Percent of CPU this job got: 39%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 8881
+	Voluntary context switches: 95822
+	Involuntary context switches: 568
+	Swaps: 0
+	File system inputs: 13779376
+	File system outputs: 13660312
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c ./cpr-no-falloc /home/kuroni/Documents/Repositories/linux /home/kuroni/linux-1"
+	User time (seconds): 0.12
+	System time (seconds): 5.92
+	Percent of CPU this job got: 36%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 8883
+	Voluntary context switches: 98130
+	Involuntary context switches: 486
+	Swaps: 0
+	File system inputs: 13779328
+	File system outputs: 13660312
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c ./cpr-no-falloc /home/kuroni/Documents/Repositories/linux /home/kuroni/linux-1"
+	User time (seconds): 0.07
+	System time (seconds): 5.93
+	Percent of CPU this job got: 52%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:11.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35164
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 8890
+	Voluntary context switches: 86785
+	Involuntary context switches: 486
+	Swaps: 0
+	File system inputs: 13779184
+	File system outputs: 13660312
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c ./cpr-no-falloc /home/kuroni/Documents/Repositories/linux /home/kuroni/linux-1"
+	User time (seconds): 0.09
+	System time (seconds): 6.12
+	Percent of CPU this job got: 37%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34848
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 3
+	Minor (reclaiming a frame) page faults: 8862
+	Voluntary context switches: 101267
+	Involuntary context switches: 704
+	Swaps: 0
+	File system inputs: 13777744
+	File system outputs: 13660312
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

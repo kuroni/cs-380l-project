@@ -1,0 +1,120 @@
+Run 1
+	Command being timed: "sh -c ./cpr-no-falloc /home/kuroni/osu /home/kuroni/osu-1"
+	User time (seconds): 0.09
+	System time (seconds): 9.15
+	Percent of CPU this job got: 28%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:32.53
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34852
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 3
+	Minor (reclaiming a frame) page faults: 8806
+	Voluntary context switches: 130265
+	Involuntary context switches: 1659
+	Swaps: 0
+	File system inputs: 24121984
+	File system outputs: 24076968
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c ./cpr-no-falloc /home/kuroni/osu /home/kuroni/osu-1"
+	User time (seconds): 0.05
+	System time (seconds): 9.42
+	Percent of CPU this job got: 25%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:37.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 8803
+	Voluntary context switches: 163308
+	Involuntary context switches: 2127
+	Swaps: 0
+	File system inputs: 24122512
+	File system outputs: 24076968
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c ./cpr-no-falloc /home/kuroni/osu /home/kuroni/osu-1"
+	User time (seconds): 0.10
+	System time (seconds): 9.28
+	Percent of CPU this job got: 24%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:37.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35004
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 8801
+	Voluntary context switches: 159034
+	Involuntary context switches: 1864
+	Swaps: 0
+	File system inputs: 24123056
+	File system outputs: 24076968
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c ./cpr-no-falloc /home/kuroni/osu /home/kuroni/osu-1"
+	User time (seconds): 0.11
+	System time (seconds): 9.28
+	Percent of CPU this job got: 24%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:37.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34844
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 8801
+	Voluntary context switches: 166433
+	Involuntary context switches: 2130
+	Swaps: 0
+	File system inputs: 24122792
+	File system outputs: 24076968
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c ./cpr-no-falloc /home/kuroni/osu /home/kuroni/osu-1"
+	User time (seconds): 0.04
+	System time (seconds): 9.48
+	Percent of CPU this job got: 24%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35004
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 8804
+	Voluntary context switches: 161975
+	Involuntary context switches: 2205
+	Swaps: 0
+	File system inputs: 24122720
+	File system outputs: 24076968
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

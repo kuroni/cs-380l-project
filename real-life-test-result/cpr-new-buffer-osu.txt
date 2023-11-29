@@ -1,0 +1,120 @@
+Run 1
+	Command being timed: "sh -c ./cpr-new-buffer /home/kuroni/osu /home/kuroni/osu-1"
+	User time (seconds): 0.09
+	System time (seconds): 9.30
+	Percent of CPU this job got: 27%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:34.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 63136
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 3
+	Minor (reclaiming a frame) page faults: 15376
+	Voluntary context switches: 148800
+	Involuntary context switches: 2168
+	Swaps: 0
+	File system inputs: 24125848
+	File system outputs: 24076968
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c ./cpr-new-buffer /home/kuroni/osu /home/kuroni/osu-1"
+	User time (seconds): 0.06
+	System time (seconds): 9.51
+	Percent of CPU this job got: 25%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:37.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 65472
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 14216
+	Voluntary context switches: 169595
+	Involuntary context switches: 2403
+	Swaps: 0
+	File system inputs: 24126248
+	File system outputs: 24076968
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c ./cpr-new-buffer /home/kuroni/osu /home/kuroni/osu-1"
+	User time (seconds): 0.13
+	System time (seconds): 9.35
+	Percent of CPU this job got: 24%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 61620
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 12349
+	Voluntary context switches: 174468
+	Involuntary context switches: 2126
+	Swaps: 0
+	File system inputs: 24125112
+	File system outputs: 24076968
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c ./cpr-new-buffer /home/kuroni/osu /home/kuroni/osu-1"
+	User time (seconds): 0.08
+	System time (seconds): 9.47
+	Percent of CPU this job got: 23%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.92
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 55436
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 11356
+	Voluntary context switches: 182872
+	Involuntary context switches: 2283
+	Swaps: 0
+	File system inputs: 24125480
+	File system outputs: 24076968
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c ./cpr-new-buffer /home/kuroni/osu /home/kuroni/osu-1"
+	User time (seconds): 0.12
+	System time (seconds): 9.57
+	Percent of CPU this job got: 21%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:44.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 62052
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 13403
+	Voluntary context switches: 182392
+	Involuntary context switches: 2529
+	Swaps: 0
+	File system inputs: 24125880
+	File system outputs: 24076968
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
