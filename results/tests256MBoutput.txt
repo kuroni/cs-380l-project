@@ -1,0 +1,2428 @@
+Creating 2 files of size 256MB
+Testing with ./cpr
+Run 1
+	Command being timed: "sh -c ./cpr testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.78
+	Percent of CPU this job got: 34%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8589
+	Voluntary context switches: 5421
+	Involuntary context switches: 1199
+	Swaps: 0
+	File system inputs: 1049296
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c ./cpr testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.77
+	Percent of CPU this job got: 33%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8587
+	Voluntary context switches: 5019
+	Involuntary context switches: 880
+	Swaps: 0
+	File system inputs: 1049560
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c ./cpr testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.76
+	Percent of CPU this job got: 33%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8588
+	Voluntary context switches: 5233
+	Involuntary context switches: 1132
+	Swaps: 0
+	File system inputs: 1049552
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c ./cpr testingdir testingdircopy"
+	User time (seconds): 0.01
+	System time (seconds): 0.75
+	Percent of CPU this job got: 33%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.28
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8587
+	Voluntary context switches: 5231
+	Involuntary context switches: 1118
+	Swaps: 0
+	File system inputs: 1049560
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c ./cpr testingdir testingdircopy"
+	User time (seconds): 0.02
+	System time (seconds): 0.75
+	Percent of CPU this job got: 34%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8588
+	Voluntary context switches: 5612
+	Involuntary context switches: 1519
+	Swaps: 0
+	File system inputs: 1049576
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Testing with ./cpr-no-falloc
+Run 1
+	Command being timed: "sh -c ./cpr-no-falloc testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.86
+	Percent of CPU this job got: 37%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8586
+	Voluntary context switches: 5177
+	Involuntary context switches: 712
+	Swaps: 0
+	File system inputs: 1049232
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c ./cpr-no-falloc testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.83
+	Percent of CPU this job got: 36%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8589
+	Voluntary context switches: 4929
+	Involuntary context switches: 964
+	Swaps: 0
+	File system inputs: 1049504
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c ./cpr-no-falloc testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.86
+	Percent of CPU this job got: 37%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8589
+	Voluntary context switches: 5348
+	Involuntary context switches: 906
+	Swaps: 0
+	File system inputs: 1049760
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c ./cpr-no-falloc testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.85
+	Percent of CPU this job got: 37%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8589
+	Voluntary context switches: 4787
+	Involuntary context switches: 760
+	Swaps: 0
+	File system inputs: 1049536
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c ./cpr-no-falloc testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.86
+	Percent of CPU this job got: 38%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8587
+	Voluntary context switches: 5350
+	Involuntary context switches: 887
+	Swaps: 0
+	File system inputs: 1049528
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Testing with ./cpr-single-file
+Run 1
+	Command being timed: "sh -c ./cpr-single-file testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.75
+	Percent of CPU this job got: 32%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8588
+	Voluntary context switches: 5311
+	Involuntary context switches: 1102
+	Swaps: 0
+	File system inputs: 1049272
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c ./cpr-single-file testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.76
+	Percent of CPU this job got: 33%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8590
+	Voluntary context switches: 5133
+	Involuntary context switches: 876
+	Swaps: 0
+	File system inputs: 1049552
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c ./cpr-single-file testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.75
+	Percent of CPU this job got: 33%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.29
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8589
+	Voluntary context switches: 4734
+	Involuntary context switches: 763
+	Swaps: 0
+	File system inputs: 1049552
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c ./cpr-single-file testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.77
+	Percent of CPU this job got: 33%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.29
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8588
+	Voluntary context switches: 5706
+	Involuntary context switches: 1210
+	Swaps: 0
+	File system inputs: 1049560
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c ./cpr-single-file testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.76
+	Percent of CPU this job got: 33%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8589
+	Voluntary context switches: 5220
+	Involuntary context switches: 909
+	Swaps: 0
+	File system inputs: 1049552
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Testing with ./cpr-new-buffer
+Run 1
+	Command being timed: "sh -c ./cpr-new-buffer testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.79
+	Percent of CPU this job got: 34%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35044
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 17134
+	Voluntary context switches: 5336
+	Involuntary context switches: 1363
+	Swaps: 0
+	File system inputs: 1049256
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c ./cpr-new-buffer testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.77
+	Percent of CPU this job got: 34%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35012
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 16752
+	Voluntary context switches: 5050
+	Involuntary context switches: 1262
+	Swaps: 0
+	File system inputs: 1049560
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c ./cpr-new-buffer testingdir testingdircopy"
+	User time (seconds): 0.02
+	System time (seconds): 0.76
+	Percent of CPU this job got: 34%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35012
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 17008
+	Voluntary context switches: 5214
+	Involuntary context switches: 1150
+	Swaps: 0
+	File system inputs: 1049552
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c ./cpr-new-buffer testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.77
+	Percent of CPU this job got: 34%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35004
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 16754
+	Voluntary context switches: 4583
+	Involuntary context switches: 1079
+	Swaps: 0
+	File system inputs: 1049568
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c ./cpr-new-buffer testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.78
+	Percent of CPU this job got: 34%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34992
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 16882
+	Voluntary context switches: 4975
+	Involuntary context switches: 988
+	Swaps: 0
+	File system inputs: 1049560
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Testing with cp -r
+Run 1
+	Command being timed: "sh -c cp -r testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.71
+	Percent of CPU this job got: 31%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.28
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2560
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 9
+	Minor (reclaiming a frame) page faults: 251
+	Voluntary context switches: 284
+	Involuntary context switches: 5
+	Swaps: 0
+	File system inputs: 1049296
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c cp -r testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.72
+	Percent of CPU this job got: 31%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 9
+	Minor (reclaiming a frame) page faults: 250
+	Voluntary context switches: 266
+	Involuntary context switches: 8
+	Swaps: 0
+	File system inputs: 1049816
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c cp -r testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.70
+	Percent of CPU this job got: 30%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2684
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 9
+	Minor (reclaiming a frame) page faults: 250
+	Voluntary context switches: 332
+	Involuntary context switches: 13
+	Swaps: 0
+	File system inputs: 1049008
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c cp -r testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.71
+	Percent of CPU this job got: 31%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2560
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 9
+	Minor (reclaiming a frame) page faults: 252
+	Voluntary context switches: 243
+	Involuntary context switches: 12
+	Swaps: 0
+	File system inputs: 1049592
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c cp -r testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 0.71
+	Percent of CPU this job got: 31%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 9
+	Minor (reclaiming a frame) page faults: 249
+	Voluntary context switches: 302
+	Involuntary context switches: 12
+	Swaps: 0
+	File system inputs: 1049584
+	File system outputs: 1048576
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+2 files 256 MB tests done
+Creating 4 files of size 256MB
+Testing with ./cpr
+Run 1
+	Command being timed: "sh -c ./cpr testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 1.52
+	Percent of CPU this job got: 29%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8587
+	Voluntary context switches: 10787
+	Involuntary context switches: 3280
+	Swaps: 0
+	File system inputs: 2098152
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c ./cpr testingdir testingdircopy"
+	User time (seconds): 0.01
+	System time (seconds): 1.48
+	Percent of CPU this job got: 29%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8587
+	Voluntary context switches: 10093
+	Involuntary context switches: 2648
+	Swaps: 0
+	File system inputs: 2098200
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c ./cpr testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 1.51
+	Percent of CPU this job got: 30%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8589
+	Voluntary context switches: 10303
+	Involuntary context switches: 2778
+	Swaps: 0
+	File system inputs: 2098200
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c ./cpr testingdir testingdircopy"
+	User time (seconds): 0.02
+	System time (seconds): 1.49
+	Percent of CPU this job got: 29%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8587
+	Voluntary context switches: 10189
+	Involuntary context switches: 2512
+	Swaps: 0
+	File system inputs: 2098200
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c ./cpr testingdir testingdircopy"
+	User time (seconds): 0.01
+	System time (seconds): 1.52
+	Percent of CPU this job got: 30%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8588
+	Voluntary context switches: 10505
+	Involuntary context switches: 2713
+	Swaps: 0
+	File system inputs: 2098208
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Testing with ./cpr-no-falloc
+Run 1
+	Command being timed: "sh -c ./cpr-no-falloc testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 1.66
+	Percent of CPU this job got: 32%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8589
+	Voluntary context switches: 10625
+	Involuntary context switches: 2101
+	Swaps: 0
+	File system inputs: 2097848
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c ./cpr-no-falloc testingdir testingdircopy"
+	User time (seconds): 0.01
+	System time (seconds): 1.65
+	Percent of CPU this job got: 32%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8587
+	Voluntary context switches: 10313
+	Involuntary context switches: 2528
+	Swaps: 0
+	File system inputs: 2098144
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c ./cpr-no-falloc testingdir testingdircopy"
+	User time (seconds): 0.01
+	System time (seconds): 1.67
+	Percent of CPU this job got: 32%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.19
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8586
+	Voluntary context switches: 11193
+	Involuntary context switches: 2558
+	Swaps: 0
+	File system inputs: 2098144
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c ./cpr-no-falloc testingdir testingdircopy"
+	User time (seconds): 0.01
+	System time (seconds): 1.64
+	Percent of CPU this job got: 32%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8589
+	Voluntary context switches: 10088
+	Involuntary context switches: 2527
+	Swaps: 0
+	File system inputs: 2098136
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c ./cpr-no-falloc testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 1.65
+	Percent of CPU this job got: 32%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8586
+	Voluntary context switches: 10840
+	Involuntary context switches: 2185
+	Swaps: 0
+	File system inputs: 2098144
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Testing with ./cpr-single-file
+Run 1
+	Command being timed: "sh -c ./cpr-single-file testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 1.50
+	Percent of CPU this job got: 27%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8588
+	Voluntary context switches: 11345
+	Involuntary context switches: 2832
+	Swaps: 0
+	File system inputs: 2097904
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c ./cpr-single-file testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 1.50
+	Percent of CPU this job got: 29%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8589
+	Voluntary context switches: 11195
+	Involuntary context switches: 2803
+	Swaps: 0
+	File system inputs: 2098208
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c ./cpr-single-file testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 1.50
+	Percent of CPU this job got: 27%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.56
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8587
+	Voluntary context switches: 11568
+	Involuntary context switches: 3086
+	Swaps: 0
+	File system inputs: 2098200
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c ./cpr-single-file testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 1.49
+	Percent of CPU this job got: 29%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8589
+	Voluntary context switches: 10918
+	Involuntary context switches: 2566
+	Swaps: 0
+	File system inputs: 2098200
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c ./cpr-single-file testingdir testingdircopy"
+	User time (seconds): 0.01
+	System time (seconds): 1.50
+	Percent of CPU this job got: 28%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8586
+	Voluntary context switches: 11717
+	Involuntary context switches: 2748
+	Swaps: 0
+	File system inputs: 2098200
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Testing with ./cpr-new-buffer
+Run 1
+	Command being timed: "sh -c ./cpr-new-buffer testingdir testingdircopy"
+	User time (seconds): 0.02
+	System time (seconds): 1.49
+	Percent of CPU this job got: 29%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34944
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 16787
+	Voluntary context switches: 10525
+	Involuntary context switches: 3087
+	Swaps: 0
+	File system inputs: 2097912
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c ./cpr-new-buffer testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 1.51
+	Percent of CPU this job got: 30%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35048
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 17459
+	Voluntary context switches: 10502
+	Involuntary context switches: 3999
+	Swaps: 0
+	File system inputs: 2098200
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c ./cpr-new-buffer testingdir testingdircopy"
+	User time (seconds): 0.01
+	System time (seconds): 1.51
+	Percent of CPU this job got: 29%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35048
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 17108
+	Voluntary context switches: 9998
+	Involuntary context switches: 3408
+	Swaps: 0
+	File system inputs: 2098200
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c ./cpr-new-buffer testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 1.51
+	Percent of CPU this job got: 29%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34944
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 16755
+	Voluntary context switches: 10803
+	Involuntary context switches: 3947
+	Swaps: 0
+	File system inputs: 2098184
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c ./cpr-new-buffer testingdir testingdircopy"
+	User time (seconds): 0.02
+	System time (seconds): 1.49
+	Percent of CPU this job got: 29%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 17587
+	Voluntary context switches: 9367
+	Involuntary context switches: 2415
+	Swaps: 0
+	File system inputs: 2098224
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Testing with cp -r
+Run 1
+	Command being timed: "sh -c cp -r testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 1.44
+	Percent of CPU this job got: 18%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 251
+	Voluntary context switches: 1005
+	Involuntary context switches: 15
+	Swaps: 0
+	File system inputs: 2097576
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c cp -r testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 1.46
+	Percent of CPU this job got: 10%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:14.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 9
+	Minor (reclaiming a frame) page faults: 254
+	Voluntary context switches: 1179
+	Involuntary context switches: 27
+	Swaps: 0
+	File system inputs: 2098488
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c cp -r testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 1.45
+	Percent of CPU this job got: 11%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:13.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 9
+	Minor (reclaiming a frame) page faults: 250
+	Voluntary context switches: 918
+	Involuntary context switches: 19
+	Swaps: 0
+	File system inputs: 2098208
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c cp -r testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 1.46
+	Percent of CPU this job got: 11%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2560
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 9
+	Minor (reclaiming a frame) page faults: 250
+	Voluntary context switches: 974
+	Involuntary context switches: 19
+	Swaps: 0
+	File system inputs: 2098200
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c cp -r testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 1.46
+	Percent of CPU this job got: 11%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.97
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 9
+	Minor (reclaiming a frame) page faults: 254
+	Voluntary context switches: 1100
+	Involuntary context switches: 23
+	Swaps: 0
+	File system inputs: 2098208
+	File system outputs: 2097152
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+4 files 256 MB tests done
+Creating 8 files of size 256MB
+Testing with ./cpr
+Run 1
+	Command being timed: "sh -c ./cpr testingdir testingdircopy"
+	User time (seconds): 0.04
+	System time (seconds): 3.25
+	Percent of CPU this job got: 18%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8589
+	Voluntary context switches: 26685
+	Involuntary context switches: 7178
+	Swaps: 0
+	File system inputs: 4195376
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c ./cpr testingdir testingdircopy"
+	User time (seconds): 0.02
+	System time (seconds): 3.64
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:15.97
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8589
+	Voluntary context switches: 33866
+	Involuntary context switches: 9662
+	Swaps: 0
+	File system inputs: 4195656
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c ./cpr testingdir testingdircopy"
+	User time (seconds): 0.02
+	System time (seconds): 3.62
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:15.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8587
+	Voluntary context switches: 33732
+	Involuntary context switches: 9713
+	Swaps: 0
+	File system inputs: 4195672
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c ./cpr testingdir testingdircopy"
+	User time (seconds): 0.05
+	System time (seconds): 3.61
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:15.92
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8592
+	Voluntary context switches: 34182
+	Involuntary context switches: 9382
+	Swaps: 0
+	File system inputs: 4195664
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c ./cpr testingdir testingdircopy"
+	User time (seconds): 0.03
+	System time (seconds): 3.59
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:16.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8590
+	Voluntary context switches: 33542
+	Involuntary context switches: 9561
+	Swaps: 0
+	File system inputs: 4195432
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Testing with ./cpr-no-falloc
+Run 1
+	Command being timed: "sh -c ./cpr-no-falloc testingdir testingdircopy"
+	User time (seconds): 0.03
+	System time (seconds): 4.06
+	Percent of CPU this job got: 5%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:16.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8589
+	Voluntary context switches: 34437
+	Involuntary context switches: 9440
+	Swaps: 0
+	File system inputs: 4195240
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c ./cpr-no-falloc testingdir testingdircopy"
+	User time (seconds): 0.01
+	System time (seconds): 4.06
+	Percent of CPU this job got: 5%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:15.98
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8590
+	Voluntary context switches: 34423
+	Involuntary context switches: 8964
+	Swaps: 0
+	File system inputs: 4195296
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c ./cpr-no-falloc testingdir testingdircopy"
+	User time (seconds): 0.02
+	System time (seconds): 4.08
+	Percent of CPU this job got: 5%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:15.91
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8589
+	Voluntary context switches: 35074
+	Involuntary context switches: 9163
+	Swaps: 0
+	File system inputs: 4195288
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c ./cpr-no-falloc testingdir testingdircopy"
+	User time (seconds): 0.03
+	System time (seconds): 4.06
+	Percent of CPU this job got: 5%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:18.87
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8590
+	Voluntary context switches: 33839
+	Involuntary context switches: 9366
+	Swaps: 0
+	File system inputs: 4195024
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c ./cpr-no-falloc testingdir testingdircopy"
+	User time (seconds): 0.03
+	System time (seconds): 3.97
+	Percent of CPU this job got: 5%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:18.84
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8589
+	Voluntary context switches: 33586
+	Involuntary context switches: 8727
+	Swaps: 0
+	File system inputs: 4195536
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Testing with ./cpr-single-file
+Run 1
+	Command being timed: "sh -c ./cpr-single-file testingdir testingdircopy"
+	User time (seconds): 0.03
+	System time (seconds): 3.52
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:15.51
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8590
+	Voluntary context switches: 33807
+	Involuntary context switches: 9729
+	Swaps: 0
+	File system inputs: 4195360
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c ./cpr-single-file testingdir testingdircopy"
+	User time (seconds): 0.01
+	System time (seconds): 3.50
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:15.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8589
+	Voluntary context switches: 34111
+	Involuntary context switches: 9501
+	Swaps: 0
+	File system inputs: 4195712
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c ./cpr-single-file testingdir testingdircopy"
+	User time (seconds): 0.03
+	System time (seconds): 3.56
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:15.53
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8592
+	Voluntary context switches: 34404
+	Involuntary context switches: 9663
+	Swaps: 0
+	File system inputs: 4195416
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c ./cpr-single-file testingdir testingdircopy"
+	User time (seconds): 0.02
+	System time (seconds): 3.52
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:15.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8591
+	Voluntary context switches: 34159
+	Involuntary context switches: 9467
+	Swaps: 0
+	File system inputs: 4195688
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c ./cpr-single-file testingdir testingdircopy"
+	User time (seconds): 0.01
+	System time (seconds): 3.61
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:15.58
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8588
+	Voluntary context switches: 34700
+	Involuntary context switches: 9623
+	Swaps: 0
+	File system inputs: 4195440
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Testing with ./cpr-new-buffer
+Run 1
+	Command being timed: "sh -c ./cpr-new-buffer testingdir testingdircopy"
+	User time (seconds): 0.03
+	System time (seconds): 3.61
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:16.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34984
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 16857
+	Voluntary context switches: 33916
+	Involuntary context switches: 9800
+	Swaps: 0
+	File system inputs: 4195360
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c ./cpr-new-buffer testingdir testingdircopy"
+	User time (seconds): 0.02
+	System time (seconds): 3.67
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:16.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34944
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 17241
+	Voluntary context switches: 33825
+	Involuntary context switches: 9996
+	Swaps: 0
+	File system inputs: 4195776
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c ./cpr-new-buffer testingdir testingdircopy"
+	User time (seconds): 0.03
+	System time (seconds): 3.57
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:15.90
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34952
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 16791
+	Voluntary context switches: 33664
+	Involuntary context switches: 9651
+	Swaps: 0
+	File system inputs: 4195376
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c ./cpr-new-buffer testingdir testingdircopy"
+	User time (seconds): 0.02
+	System time (seconds): 3.64
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:16.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34968
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 16822
+	Voluntary context switches: 34066
+	Involuntary context switches: 9539
+	Swaps: 0
+	File system inputs: 4195648
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c ./cpr-new-buffer testingdir testingdircopy"
+	User time (seconds): 0.03
+	System time (seconds): 3.58
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:16.34
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34944
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 16792
+	Voluntary context switches: 33597
+	Involuntary context switches: 10246
+	Swaps: 0
+	File system inputs: 4195392
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Testing with cp -r
+Run 1
+	Command being timed: "sh -c cp -r testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 3.14
+	Percent of CPU this job got: 3%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:43.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2684
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 9
+	Minor (reclaiming a frame) page faults: 251
+	Voluntary context switches: 3516
+	Involuntary context switches: 75
+	Swaps: 0
+	File system inputs: 4195344
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c cp -r testingdir testingdircopy"
+	User time (seconds): 0.02
+	System time (seconds): 3.13
+	Percent of CPU this job got: 3%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:42.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 9
+	Minor (reclaiming a frame) page faults: 251
+	Voluntary context switches: 3268
+	Involuntary context switches: 69
+	Swaps: 0
+	File system inputs: 4195880
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c cp -r testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 3.14
+	Percent of CPU this job got: 3%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:42.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2684
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 9
+	Minor (reclaiming a frame) page faults: 252
+	Voluntary context switches: 3097
+	Involuntary context switches: 54
+	Swaps: 0
+	File system inputs: 4195880
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c cp -r testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 3.15
+	Percent of CPU this job got: 3%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:42.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 9
+	Minor (reclaiming a frame) page faults: 250
+	Voluntary context switches: 3140
+	Involuntary context switches: 83
+	Swaps: 0
+	File system inputs: 4195880
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c cp -r testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 3.14
+	Percent of CPU this job got: 3%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:42.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 9
+	Minor (reclaiming a frame) page faults: 252
+	Voluntary context switches: 2925
+	Involuntary context switches: 93
+	Swaps: 0
+	File system inputs: 4195880
+	File system outputs: 4194304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+8 files 256 MB tests done
+Creating 16 files of size 256MB
+Testing with ./cpr
+Run 1
+	Command being timed: "sh -c ./cpr testingdir testingdircopy"
+	User time (seconds): 0.07
+	System time (seconds): 7.79
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:08.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8591
+	Voluntary context switches: 73873
+	Involuntary context switches: 17351
+	Swaps: 0
+	File system inputs: 8389712
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c ./cpr testingdir testingdircopy"
+	User time (seconds): 0.05
+	System time (seconds): 7.65
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:07.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8588
+	Voluntary context switches: 74013
+	Involuntary context switches: 17551
+	Swaps: 0
+	File system inputs: 8389976
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c ./cpr testingdir testingdircopy"
+	User time (seconds): 0.06
+	System time (seconds): 7.71
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:07.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8588
+	Voluntary context switches: 73828
+	Involuntary context switches: 17610
+	Swaps: 0
+	File system inputs: 8389840
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c ./cpr testingdir testingdircopy"
+	User time (seconds): 0.08
+	System time (seconds): 7.64
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:07.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8590
+	Voluntary context switches: 74776
+	Involuntary context switches: 17671
+	Swaps: 0
+	File system inputs: 8388992
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c ./cpr testingdir testingdircopy"
+	User time (seconds): 0.08
+	System time (seconds): 7.64
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:07.89
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8588
+	Voluntary context switches: 73449
+	Involuntary context switches: 17809
+	Swaps: 0
+	File system inputs: 8390104
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Testing with ./cpr-no-falloc
+Run 1
+	Command being timed: "sh -c ./cpr-no-falloc testingdir testingdircopy"
+	User time (seconds): 0.05
+	System time (seconds): 8.69
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:07.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8590
+	Voluntary context switches: 74767
+	Involuntary context switches: 16977
+	Swaps: 0
+	File system inputs: 8389440
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c ./cpr-no-falloc testingdir testingdircopy"
+	User time (seconds): 0.06
+	System time (seconds): 8.55
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:08.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8588
+	Voluntary context switches: 74569
+	Involuntary context switches: 17575
+	Swaps: 0
+	File system inputs: 8389704
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c ./cpr-no-falloc testingdir testingdircopy"
+	User time (seconds): 0.07
+	System time (seconds): 8.56
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:09.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8590
+	Voluntary context switches: 74637
+	Involuntary context switches: 16769
+	Swaps: 0
+	File system inputs: 8389736
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c ./cpr-no-falloc testingdir testingdircopy"
+	User time (seconds): 0.06
+	System time (seconds): 8.70
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:08.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8591
+	Voluntary context switches: 74278
+	Involuntary context switches: 16969
+	Swaps: 0
+	File system inputs: 8389704
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c ./cpr-no-falloc testingdir testingdircopy"
+	User time (seconds): 0.12
+	System time (seconds): 8.56
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:07.74
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8588
+	Voluntary context switches: 74393
+	Involuntary context switches: 17119
+	Swaps: 0
+	File system inputs: 8389736
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Testing with ./cpr-single-file
+Run 1
+	Command being timed: "sh -c ./cpr-single-file testingdir testingdircopy"
+	User time (seconds): 0.03
+	System time (seconds): 7.44
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:06.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8591
+	Voluntary context switches: 74022
+	Involuntary context switches: 17465
+	Swaps: 0
+	File system inputs: 8390056
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c ./cpr-single-file testingdir testingdircopy"
+	User time (seconds): 0.04
+	System time (seconds): 7.44
+	Percent of CPU this job got: 3%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:07.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8589
+	Voluntary context switches: 73062
+	Involuntary context switches: 17751
+	Swaps: 0
+	File system inputs: 8390008
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c ./cpr-single-file testingdir testingdircopy"
+	User time (seconds): 0.04
+	System time (seconds): 7.58
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:07.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8590
+	Voluntary context switches: 74739
+	Involuntary context switches: 18529
+	Swaps: 0
+	File system inputs: 8389960
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c ./cpr-single-file testingdir testingdircopy"
+	User time (seconds): 0.05
+	System time (seconds): 7.49
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:07.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8589
+	Voluntary context switches: 75323
+	Involuntary context switches: 18078
+	Swaps: 0
+	File system inputs: 8390000
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c ./cpr-single-file testingdir testingdircopy"
+	User time (seconds): 0.08
+	System time (seconds): 7.41
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:07.20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 8589
+	Voluntary context switches: 73918
+	Involuntary context switches: 18625
+	Swaps: 0
+	File system inputs: 8389984
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Testing with ./cpr-new-buffer
+Run 1
+	Command being timed: "sh -c ./cpr-new-buffer testingdir testingdircopy"
+	User time (seconds): 0.05
+	System time (seconds): 7.67
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:08.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34944
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 16994
+	Voluntary context switches: 73080
+	Involuntary context switches: 16906
+	Swaps: 0
+	File system inputs: 8390080
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c ./cpr-new-buffer testingdir testingdircopy"
+	User time (seconds): 0.15
+	System time (seconds): 7.57
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:08.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34944
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 16928
+	Voluntary context switches: 73852
+	Involuntary context switches: 17496
+	Swaps: 0
+	File system inputs: 8389744
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c ./cpr-new-buffer testingdir testingdircopy"
+	User time (seconds): 0.09
+	System time (seconds): 7.59
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:07.86
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35048
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 17728
+	Voluntary context switches: 74468
+	Involuntary context switches: 18008
+	Swaps: 0
+	File system inputs: 8389896
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c ./cpr-new-buffer testingdir testingdircopy"
+	User time (seconds): 0.10
+	System time (seconds): 7.74
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:08.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35052
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 17060
+	Voluntary context switches: 74929
+	Involuntary context switches: 17728
+	Swaps: 0
+	File system inputs: 8389960
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c ./cpr-new-buffer testingdir testingdircopy"
+	User time (seconds): 0.10
+	System time (seconds): 7.72
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:06.97
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34976
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 16990
+	Voluntary context switches: 72911
+	Involuntary context switches: 17784
+	Swaps: 0
+	File system inputs: 8345632
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Testing with cp -r
+Run 1
+	Command being timed: "sh -c cp -r testingdir testingdircopy"
+	User time (seconds): 0.04
+	System time (seconds): 6.29
+	Percent of CPU this job got: 2%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:33.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2684
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 10
+	Minor (reclaiming a frame) page faults: 254
+	Voluntary context switches: 6600
+	Involuntary context switches: 169
+	Swaps: 0
+	File system inputs: 8390040
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 2
+	Command being timed: "sh -c cp -r testingdir testingdircopy"
+	User time (seconds): 0.02
+	System time (seconds): 6.28
+	Percent of CPU this job got: 3%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:21.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 10
+	Minor (reclaiming a frame) page faults: 254
+	Voluntary context switches: 6601
+	Involuntary context switches: 185
+	Swaps: 0
+	File system inputs: 8387160
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 3
+	Command being timed: "sh -c cp -r testingdir testingdircopy"
+	User time (seconds): 0.02
+	System time (seconds): 6.31
+	Percent of CPU this job got: 2%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:36.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2684
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 10
+	Minor (reclaiming a frame) page faults: 254
+	Voluntary context switches: 6481
+	Involuntary context switches: 167
+	Swaps: 0
+	File system inputs: 8390296
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 4
+	Command being timed: "sh -c cp -r testingdir testingdircopy"
+	User time (seconds): 0.01
+	System time (seconds): 6.30
+	Percent of CPU this job got: 3%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:22.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 10
+	Minor (reclaiming a frame) page faults: 254
+	Voluntary context switches: 6432
+	Involuntary context switches: 184
+	Swaps: 0
+	File system inputs: 8389800
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Run 5
+	Command being timed: "sh -c cp -r testingdir testingdircopy"
+	User time (seconds): 0.00
+	System time (seconds): 6.34
+	Percent of CPU this job got: 2%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:34.90
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 10
+	Minor (reclaiming a frame) page faults: 250
+	Voluntary context switches: 6436
+	Involuntary context switches: 172
+	Swaps: 0
+	File system inputs: 8390376
+	File system outputs: 8388608
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+16 files 256 MB tests done
