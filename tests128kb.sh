@@ -7,7 +7,7 @@ cd testingdir
 echo "Creating 5000 files of size 128KB" 
 for i in {1..5000}
 do
-   dd if=/dev/urandom bs=1024 count=128 of=test-${i}.bin
+   dd if=/dev/urandom bs=1024 count=128 of=test-${i}.bin status=none 
 done
 
 cd ..
@@ -44,7 +44,7 @@ cd testingdir
 echo "Creating 10000 files of size 128KB" 
 for i in {1..10000}
 do
-   dd if=/dev/urandom bs=1024 count=128 of=test-${i}.bin
+   dd if=/dev/urandom bs=1024 count=128 of=test-${i}.bin status=none
 done
 
 cd ..
@@ -79,7 +79,7 @@ cd testingdir
 echo "Creating 15000 files of size 128KB" 
 for i in {1..15000}
 do
-   dd if=/dev/urandom bs=1024 count=128 of=test-${i}.bin
+   dd if=/dev/urandom bs=1024 count=128 of=test-${i}.bin status=none
 done
 
 cd ..
@@ -115,7 +115,7 @@ cd testingdir
 echo "Creating 20000 files of size 128KB" 
 for i in {1..20000}
 do
-   dd if=/dev/urandom bs=1024 count=128 of=test-${i}.bin
+   dd if=/dev/urandom bs=1024 count=128 of=test-${i}.bin status=none
 done
 
 cd ..
